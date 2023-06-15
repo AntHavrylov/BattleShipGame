@@ -1,0 +1,15 @@
+D:\MyProjects\BattleShipGame\BattleShipGame\bin\Debug\net7.0\BattleShipGame.exe
+D:\MyProjects\BattleShipGame\BattleShipGame\bin\Debug\net7.0\BattleShipGame.deps.json
+D:\MyProjects\BattleShipGame\BattleShipGame\bin\Debug\net7.0\BattleShipGame.runtimeconfig.json
+D:\MyProjects\BattleShipGame\BattleShipGame\bin\Debug\net7.0\BattleShipGame.dll
+D:\MyProjects\BattleShipGame\BattleShipGame\bin\Debug\net7.0\BattleShipGame.pdb
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.csproj.AssemblyReference.cache
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.AssemblyInfoInputs.cache
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.AssemblyInfo.cs
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.csproj.CoreCompileInputs.cache
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.dll
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\refint\BattleShipGame.dll
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.pdb
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\BattleShipGame.genruntimeconfig.cache
+D:\MyProjects\BattleShipGame\BattleShipGame\obj\Debug\net7.0\ref\BattleShipGame.dll
