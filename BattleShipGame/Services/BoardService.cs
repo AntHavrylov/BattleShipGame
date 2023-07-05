@@ -18,6 +18,7 @@ public class BoardService
         _dimention = dimention;
         var board = new Board(dimention);
         DefineFleet(board, ships);
+        PrintBoard(board);
         return board;
     }
 
