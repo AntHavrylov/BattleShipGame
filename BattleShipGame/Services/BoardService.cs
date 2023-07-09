@@ -3,7 +3,17 @@ using static BattleShipGame.Commons.Enums;
 
 namespace BattleShipGame.Services;
 
-public class BoardService
+public interface IBoardService 
+{
+    List<(int, int)> GetNewShipCoordinates(Board board, int shipLength);
+    Board CreateNew(int dimention, params int[] ships);
+    void SetShip(Board board, int shipLengh);
+    bool GetHit(Board board, int x, int y);
+    void PrintBoard(Board board);
+
+}
+
+public class BoardService : IBoardService
 {
     private readonly Random _random;
     private int _dimention;
@@ -65,22 +75,22 @@ public class BoardService
             SetShip(board, ship);
     }
 
-    private void SetShip(Board board, int shipLengh)
+    public void SetShip(Board board, int shipLengh)
     {
         var coordinates = GetNewShipCoordinates(board, shipLengh);
         board.Fleet.Add(new Ship(coordinates));
         coordinates.ForEach(c => board.Cells[c.Item1, c.Item2] = shipLengh);
     }
 
-    private List<(int, int)> GetNewShipCoordinates(Board board, int shipLength)
+    public List<(int, int)> GetNewShipCoordinates(Board board, int shipLength)
     {
         var coordinates = new List<(int, int)>();
         bool isHorisontal = new Random().Next(0, 2) == 0;
         bool ableToSet = false;
         while (!ableToSet)
         {
-            int x = _random.Next(0, _dimention - (isHorisontal ? shipLength : 0));
-            int y = _random.Next(0, _dimention - (!isHorisontal ? shipLength : 0));
+            int x = _random.Next(0, board.Cells.GetLength(0) - (isHorisontal ? shipLength : 0));
+            int y = _random.Next(0, board.Cells.GetLength(1) - (!isHorisontal ? shipLength : 0));
 
             coordinates = isHorisontal ?
                 Enumerable.Range(x, shipLength).Select(i => (i, y)).ToList() :
