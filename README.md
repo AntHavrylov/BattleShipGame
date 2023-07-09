@@ -1,5 +1,5 @@
 Battleships Game
-This is a C# application that allows a single human player to play a one-sided game of Battleships against ships placed by the computer. The program creates a 10x10 grid and randomly places ships of different sizes on the grid. The objective of the game is to sink all the ships by targeting specific coordinates.
+  This is a C# application that allows a single human player to play a one-sided game of Battleships against ships placed by the computer. The program creates a 10x10 grid and randomly places ships of different sizes on the grid. The objective of the game is to sink all the ships by targeting specific coordinates.
 
 How to Play
   1. Launch the application and a 10x10 grid will be displayed.
