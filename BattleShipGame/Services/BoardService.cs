@@ -16,7 +16,6 @@ public interface IBoardService
 public class BoardService : IBoardService
 {
     private readonly Random _random;
-    private int _dimention;
 
     public BoardService()
     {
@@ -25,7 +24,6 @@ public class BoardService : IBoardService
 
     public Board CreateNew(int dimention, params int[] ships)
     {
-        _dimention = dimention;
         var board = new Board(dimention);
         DefineFleet(board, ships);
         PrintBoard(board);
