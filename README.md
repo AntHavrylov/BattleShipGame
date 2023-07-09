@@ -1,8 +1,8 @@
-**Battleships Game** 
+### Battleships Game
 
   This is a C# application that allows a single human player to play a one-sided game of Battleships against ships placed by the    computer. The program creates a 10x10 grid and randomly places ships of different sizes on the grid. The objective of the game    is to sink all the ships by targeting specific coordinates.
 
-**How to Play**
+### How to Play
 
   1. Launch the application and a 10x10 grid will be displayed.
   2. The computer will randomly place the following ships on the grid:
@@ -13,19 +13,11 @@
   5. Continue targeting squares until all the ships have been sunk.
   6. The game ends when all the ships are sunk, and the player is shown a victory message.
 
-**Prerequisites**
+### Prerequisites
 
   .NET Framework or .NET Core installed on your machine.
     
-**How to Run**
-
-  1. Clone the repository or download the source code.
-  2. Open the project in your preferred IDE.
-  3. Build the project to ensure all dependencies are resolved.
-  4. Run the application.
-  5. The game will start, and you can begin playing Battleships.
-
-**File Structure**
+### File Structure
 
   The project consists of the following files:
   Program.cs: Contains the main entry point of the application and the game logic.
@@ -34,6 +26,25 @@
   Ship.cs: Represents a ship and its properties such as size and status.
   Compartment.cs: Represents a ship Compartment and its properties such as status and coordinates.
 
-**License**
+### How to Run
+
+  - Clone the repository or download the source code.
+  - Open the project in your preferred IDE.
+  - Build the project to ensure all dependencies are resolved.
+  - Run the application.
+  - The game will start, and you can begin playing Battleships.
+
+### Unit tests
+
+  **Prerequisites**  
+  Before running the unit tests, make sure you have the following:  
+  - .NET SDK installed (compatible with the version used in the project)
+  - xUnit NuGet package installed (xunit,xunit.runner.console/xunit.runner.visualstudio)
+  **Running the Tests**
+  - Navigate to the project directory(cd your-repo)
+  - Build the project(dotnet build)
+  - Run the unit tests(dotnet test)
+  
+### License
 
   This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
